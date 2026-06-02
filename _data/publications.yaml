@@ -25,7 +25,7 @@ papers:
 
   - title: "RoboAlign: Learning Test-Time Reasoning for Language-Action Alignment in Vision-Language-Action Models"
     image: "/assets/publications/roboalign/teaser.png"
-    authors: "<a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>, <a>Sumin Park</a>, <a>Woomin Song</a>, <a>Seungku Kim</a>, <b><u>Taeyoung Kim</u></b>, <a>Huiwon Jang</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a>Jaehyung Kim</a>, <a href='https://younggyo.me/'>Younggyo Seo</a>"
+    authors: "<a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>, <a href='https://alinlab.kaist.ac.kr/members.html'>Sumin Park</a>, <a href='https://woominsong.github.io/'>Woomin Song</a>, <a href='https://alinlab.kaist.ac.kr/members.html'>Seungku Kim</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://huiwon-jang.github.io/'>Huiwon Jang</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a href='https://sites.google.com/view/jaehyungkim'>Jaehyung Kim</a>, <a href='https://younggyo.me/'>Younggyo Seo</a>"
     venue: "arXiv 2026"
     paper_pdf: "https://arxiv.org/abs/2603.21341"
     selected: y
