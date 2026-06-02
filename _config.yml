@@ -1,0 +1,14 @@
+# Site settings for GitHub Pages (user site served at the domain root)
+title: "Your Name"
+description: "Personal homepage"
+baseurl: ""        # user/org sites live at the root; keep empty
+url: "https://ismty0805.github.io"
+
+# Build settings
+markdown: kramdown
+
+# Files Jekyll should not copy into the built site
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore

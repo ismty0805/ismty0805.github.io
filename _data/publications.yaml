@@ -1,0 +1,14 @@
+papers:
+  # Add your publications below. Set "selected: y" to show a paper in the
+  # "Selected" tab (with teaser image). Remove this example entry.
+  - title: "Your Paper Title Here"
+    image: "/assets/publications/example/teaser.png"   # optional teaser image
+    authors: "<b><u>Your Name</u></b>, Co-author One, Co-author Two"
+    venue: "Conference / Journal Year"
+    paper_pdf: ""        # link to PDF or arXiv
+    project_page: ""     # link to project page
+    code: ""             # link to code repo
+    # video: ""
+    # slides: ""
+    # poster: ""
+    selected: y
