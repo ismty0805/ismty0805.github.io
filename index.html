@@ -5,10 +5,10 @@ layout: default
 <div class="docs-section" id="about">
   <h4>About</h4>
     <p>
-      <!-- Write a short bio about yourself here. -->
-      I am [your role] at [your affiliation].
-      My interests include [your interests].
-      Describe what you work on and what you care about.
+      I am a second-year Ph.D. student at <a href="https://www.kaist.ac.kr/en/">KAIST</a>, advised by <a href="https://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>.
+      I received my B.S. degree in Computer Science / Electrical Engineering (double major) at KAIST in 2024.
+      My research interest lies in robotics foundation models for general-purpose robot manipulation.
+      Recently, I am interested in learning robust and transferable representations that enable robots to generalize across diverse tasks, embodiments, and environments.
     </p>
 </div>
 
@@ -40,9 +40,11 @@ layout: default
       {% for paper in selected_papers %}
         <div class="paper">
           <div class="paper-row">
+            {% if paper.image %}
             <div class="paper-image">
               <img src="{{ paper.image }}" alt="paper image">
             </div>
+            {% endif %}
             <div class="paper-info">
               <p class="title"><b>{{ paper.title }}</b></p>
               <p>{{ paper.authors }}</p>
@@ -107,13 +109,14 @@ layout: default
 <div class="docs-section" id="education">
   <h4>Education</h4>
     <div class="paper">
-      <p class="title"><b>Your University<b style="float:right;">Year - Year</b></b></p>
-      <p>Your Degree and Major</p>
-      <p>Advisor: <a href="#">Advisor Name</a></p>
+      <p class="title"><b>Korea Advanced Institute of Science and Technology (KAIST)<b style="float:right;">Sep. 2024 - Present</b></b></p>
+      <p>Ph.D. Student in Artificial Intelligence</p>
+      <p>Advisor: <a href="https://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a></p>
     </div>
     <div class="paper">
-      <p class="title"><b>Your University<b style="float:right;">Year - Year</b></b></p>
-      <p>Your Degree and Major</p>
+      <p class="title"><b>Korea Advanced Institute of Science and Technology (KAIST)<b style="float:right;">Mar. 2018 - Aug. 2024</b></b></p>
+      <p>B.S. in Computer Science and Electrical Engineering (double major)</p>
+      <p><i>Cum Laude</i></p>
     </div>
 </div>
 
@@ -121,12 +124,8 @@ layout: default
 <div class="docs-section" id="experience">
   <h4>Experience</h4>
     <div class="paper">
-      <p class="title"><b>Your Position<b style="float:right;">Year - Present</b></b></p>
-      <a href="#">Company / Organization</a>
-    </div>
-    <div class="paper">
-      <p class="title"><b>Your Position<b style="float:right;">Year - Year</b></b></p>
-      <a href="#">Company / Organization</a>
+      <p class="title"><b>Visiting Research Fellow<b style="float:right;">Mar. 2026 - Present</b></b></p>
+      <a href="https://www.rlwrld.ai">RLWRLD</a>
     </div>
 </div>
 
@@ -134,11 +133,15 @@ layout: default
 <div class="docs-section" id="honors">
   <h4>Honors and Awards</h4>
     <div class="paper">
-      <p><b>Award Name</b>, Awarding Organization<b style="float:right;">Year</b></p>
+      <p>1st Place in <a href="https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard">Korean LLM Leaderboard</a>, <a href="https://huggingface.co/hyunseoki/ko-en-llama2-13b">hyunseoki/ko-en-llama2-13b</a><b style="float:right;">Oct. 2023</b></p>
       <p></p>
     </div>
     <div class="paper">
-      <p><b>Award Name</b>, Awarding Organization<b style="float:right;">Year</b></p>
+      <p>National Science &amp; Technology Scholarship<b style="float:right;">Mar. 2018 - Feb. 2024</b></p>
+      <p></p>
+    </div>
+    <div class="paper">
+      <p>Academic Excellence Award (Dean's List)<b style="float:right;">Jun. 2018</b></p>
       <p></p>
     </div>
 </div>

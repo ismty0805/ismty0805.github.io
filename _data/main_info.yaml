@@ -1,12 +1,12 @@
-name: "Your Name"
-title: "Your Title"            # e.g. "Research Scientist", "Ph.D. Student"
-dept: "Your Affiliation"       # e.g. "RLWRLD", "KAIST AI"
+name: "Taeyoung Kim"
+title: "Ph.D. Student"
+dept: "KAIST AI"
 office: ""                     # optional, e.g. "Room 101, Building A"
-email: "your_id [AT] example.com"
-profile_pic: "/assets/profile-pics/profile.svg"   # replace with your own photo (e.g. profile.jpeg)
-google_scholar: "https://scholar.google.com/citations?user=YOUR_ID"
+email: "taeyoungkim85 [AT] kaist.ac.kr"
+profile_pic: "/assets/profile-pics/taeyoung_picture.jpeg"
+google_scholar: "https://scholar.google.com/citations?user=tLtPzdwAAAAJ&hl=en"
 github: "https://github.com/ismty0805"
-linkedin: "https://www.linkedin.com/in/YOUR_ID/"
-cv: "/assets/cv/CV.pdf"
-# twitter: "https://twitter.com/YOUR_ID"
+linkedin: "https://www.linkedin.com/in/taeyoung-kim85/"
+cv: ""   # disabled for now; set to "/assets/cv/CV.pdf" to re-enable
+twitter: "https://x.com/kimtaey85"
 google_analystics_tracking_id: ""   # leave empty to disable Google Analytics
