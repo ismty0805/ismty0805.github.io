@@ -1,0 +1,167 @@
+%==============================================================
+%  Curriculum Vitae --- Taeyoung Kim
+%  Compile with: pdflatex CV_Taeyoung_Kim.tex
+%  (standard pdfLaTeX packages only; no photo)
+%==============================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[left=0.6in, right=0.6in, top=0.9in, bottom=0.9in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue!55!black, linkcolor=blue!55!black}
+
+%-------------------- Style --------------------
+\definecolor{accent}{HTML}{2B4C6F}
+
+% Section headings with a rule underneath
+\titleformat{\section}
+  {\large\bfseries\color{accent}}
+  {}{0em}
+  {}[\vspace{2pt}\titlerule\vspace{2pt}]
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+\setlist[itemize]{leftmargin=1.4em, itemsep=2pt, topsep=2pt, parsep=0pt}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+%-------------------- Helper macros --------------------
+% Entry with a title on the left and a date on the right
+\newcommand{\entry}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}X@{}r@{}}
+    \textbf{#1} & {\small #2}
+  \end{tabularx}\par}
+
+% Sub-line under an entry (e.g. degree, role)
+\newcommand{\subentry}[1]{\noindent #1\par}
+
+% Publication category heading (smaller than \section)
+\newcommand{\pubcat}[1]{\vspace{4pt}\noindent{\normalsize\bfseries\color{accent} #1}\par\vspace{2pt}}
+% Category heading with an inline legend in parentheses
+\newcommand{\pubcatleg}[2]{\vspace{4pt}\noindent{\normalsize\bfseries\color{accent} #1}\; {\small\itshape (#2)}\par\vspace{2pt}}
+
+% Author-mark legend symbols
+\newcommand{\eqc}{\textsuperscript{*}}      % equal contribution
+\newcommand{\eqa}{\textsuperscript{\dag}}   % equal advising
+\newcommand{\rlead}{\textsuperscript{\S}}   % research lead
+
+\begin{document}
+
+%==============================================================
+%  Top bar: last-updated date with a rule beneath
+%==============================================================
+{\small\hfill Last Updated: June 6, 2026}\par
+\vspace{2pt}
+\hrule
+\vspace{10pt}
+
+%==============================================================
+%  Header
+%==============================================================
+\begin{center}
+  {\LARGE\bfseries Taeyoung Kim}\\[8pt]
+  {\small
+    \href{mailto:taeyoungkim85@kaist.ac.kr}{taeyoungkim85@kaist.ac.kr} \;\textbar\;
+    \href{https://ismty0805.github.io}{Homepage} \;\textbar\;
+    \href{https://github.com/ismty0805}{GitHub} \;\textbar\;
+    \href{https://www.linkedin.com/in/taeyoung-kim85/}{LinkedIn}
+  }
+\end{center}
+
+%==============================================================
+%  Research Interests
+%==============================================================
+\section{Research Interests}
+My research interest lies in robotics foundation models for general-purpose
+robot manipulation. Recently, I am interested in learning robust and
+transferable representations that enable robots to generalize across diverse
+tasks, embodiments, and environments.
+
+%==============================================================
+%  Education
+%==============================================================
+\section{Education}
+\entry{Korea Advanced Institute of Science and Technology (KAIST)}{Sep. 2024 -- Present}
+\subentry{Ph.D. Student in Artificial Intelligence}
+\subentry{Advisor: \href{https://alinlab.kaist.ac.kr/shin.html}{Jinwoo Shin}}
+\vspace{6pt}
+
+\entry{Korea Advanced Institute of Science and Technology (KAIST)}{Mar. 2018 -- Aug. 2024}
+\subentry{B.S. in Computer Science and Electrical Engineering (double major)}
+\subentry{\textit{Cum Laude}}
+
+%==============================================================
+%  Publications
+%==============================================================
+\section{Publications}
+
+%---------------- Conferences ----------------
+\pubcatleg{Conferences}{\textsuperscript{*}Equal Contribution, \textsuperscript{\dag}Equal Advising}
+\begin{enumerate}[label={[\textbf{C\arabic*}]}, ref=C\arabic*,
+                  leftmargin=2.8em, labelsep=0.5em, itemsep=8pt]
+
+  \item \textbf{Contrastive Representation Regularization for Vision-Language-Action Models}\\
+    \underline{Taeyoung Kim}, Jimin Lee, Myungkyu Koo, Dongyoung Kim,
+    Kyungmin Lee, Changyeon Kim, Younggyo Seo\eqa, Jinwoo Shin\eqa.\\
+    \textit{International Conference on Machine Learning (ICML), 2026.}
+
+  \item \textbf{HAMLET: Switch your Vision-Language-Action Model into a History-Aware Policy}\\
+    Myungkyu Koo\eqc, Daewon Choi\eqc, \underline{Taeyoung Kim},
+    Kyungmin Lee, Changyeon Kim, Younggyo Seo\eqa, Jinwoo Shin\eqa.\\
+    \textit{International Conference on Learning Representations (ICLR), 2026.}
+
+\end{enumerate}
+
+%---------------- Technical Reports ----------------
+\pubcatleg{Technical Reports}{\textsuperscript{*}Project Lead, \textsuperscript{\S}Research Lead}
+\begin{enumerate}[label={[\textbf{T\arabic*}]}, ref=T\arabic*,
+                  leftmargin=2.8em, labelsep=0.5em, itemsep=8pt]
+
+  \item \textbf{RLDX-1 Technical Report}\\
+    Dongyoung Kim\eqc\rlead, Huiwon Jang\eqc\rlead, Myungkyu Koo\eqc,
+    Suhyeok Jang\eqc, \underline{Taeyoung Kim}\eqc, et al., Jinwoo Shin\rlead.\\
+    \textit{Technical Report, 2026.}
+
+\end{enumerate}
+
+%---------------- Preprints ----------------
+\pubcat{Preprints}
+\begin{enumerate}[label={[\textbf{P\arabic*}]}, ref=P\arabic*,
+                  leftmargin=2.8em, labelsep=0.5em, itemsep=8pt]
+
+  \item \textbf{RoboAlign: Learning Test-Time Reasoning for Language-Action Alignment in Vision-Language-Action Models}\\
+    Dongyoung Kim, Sumin Park, Woomin Song, Seungku Kim, \underline{Taeyoung Kim},
+    Huiwon Jang, Jinwoo Shin, Jaehyung Kim, Younggyo Seo.\\
+    \textit{arXiv, 2026.}
+
+\end{enumerate}
+
+%==============================================================
+%  Experience
+%==============================================================
+\section{Experience}
+\entry{Visiting Research Fellow,\; \href{https://www.rlwrld.ai}{RLWRLD}}{Mar. 2026 -- Present}
+
+%==============================================================
+%  Honors and Awards
+%==============================================================
+\section{Honors and Awards}
+\entry{1st Place in \href{https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard}{Korean LLM Leaderboard} (\href{https://huggingface.co/hyunseoki/ko-en-llama2-13b}{hyunseoki/ko-en-llama2-13b})}{Oct. 2023}
+\vspace{4pt}
+\entry{National Science \& Technology Scholarship}{Mar. 2018 -- Feb. 2024}
+\vspace{4pt}
+\entry{Academic Excellence Award (Dean's List)}{Jun. 2018}
+
+%==============================================================
+%  References
+%==============================================================
+\section{References}
+\textbf{Prof. Jinwoo Shin}, Full Professor at KAIST\\
+E-mail: \href{mailto:jinwoos@kaist.ac.kr}{jinwoos@kaist.ac.kr}
+
+\end{document}
