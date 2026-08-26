@@ -40,11 +40,6 @@ layout: default
       {% for paper in selected_papers %}
         <div class="paper">
           <div class="paper-row">
-            {% if paper.image %}
-            <div class="paper-image">
-              <img src="{{ paper.image }}" alt="paper image">
-            </div>
-            {% endif %}
             <div class="paper-info">
               <p class="title"><b>{{ paper.title }}</b></p>
               <p>{{ paper.authors }}</p>
