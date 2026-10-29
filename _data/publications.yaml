@@ -12,13 +12,13 @@ papers:
     venue: "Preprint"
     paper_pdf: "https://arxiv.org/abs/2610.25961v2"
     project_page: "https://pacevla.github.io/"
-    selected: y
+    selected: n
 
   - title: "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs"
     # abbr: H2RB
     authors: "<a href='https://junhyeong-park.me/'>Junhyeong Park</a>, <a href='https://alinlab.kaist.ac.kr/members.html'>Wook Jung</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://huiwon-jang.github.io/'>Huiwon Jang</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
     venue: "CoRL 2026 Workshop on Scaling Human2Robot"
-    selected: y
+    selected: n
 
   - title: "RoboAlign: Learning Test-Time Reasoning for Language-Action Alignment in Vision-Language-Action Models"
     # abbr: RoboAlign
@@ -26,13 +26,13 @@ papers:
     authors: "<a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>, <a href='https://alinlab.kaist.ac.kr/members.html'>Sumin Park</a>, <a href='https://woominsong.github.io/'>Woomin Song</a>, <a href='https://alinlab.kaist.ac.kr/members.html'>Seungku Kim</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://huiwon-jang.github.io/'>Huiwon Jang</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a href='https://sites.google.com/view/jaehyungkim'>Jaehyung Kim</a>, <a href='https://younggyo.me/'>Younggyo Seo</a>"
     venue: "CoRL 2026 Workshop on Pretrain to Adapt"
     paper_pdf: "https://arxiv.org/abs/2603.21341"
-    selected: y
+    selected: n
 
   - title: "FineAct: Coarse-to-Fine Vision-Language-Action Representation Alignment for Policy Learning"
     # abbr: FineAct
     authors: "<a href='https://alinlab.kaist.ac.kr/members.html'>Wook Jung</a>, <a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>, <a href='https://periphanes.github.io/'>John Won</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
     venue: "Preprint"
-    selected: y
+    selected: n
 
   - title: "RLDX-1 Technical Report"
     # abbr: RLDX-1
