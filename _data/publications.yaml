@@ -1,4 +1,29 @@
 papers:
+  - title: "Adapting Video Models for Robot Control via Motion-guided Asymmetric Prediction"
+    authors: "<b><u>Taeyoung Kim</u></b>, <a href='https://joonyeongs.github.io/'>Junyoung Sung</a>, <a href='https://arunos728.github.io/'>Heeseung Kwon</a>, <a href='https://www.linkedin.com/in/minseop-kim-255ba02b2/?locale=en'>Minseop Kim</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2610.36624"
+    selected: y
+
+  - title: "PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models"
+    authors: "<a href='https://www.linkedin.com/in/jeon-hojin-56695a18b/?locale=en_US'>Hojin Jeon</a>, <a href='https://jiminlx.github.io/'>Jimin Lee</a>, <a>Taekwan Kim</a>, <a href='https://nayoung-oh.github.io/'>Nayoung Oh</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://myungkyukoo.github.io'>Myungkyu Koo</a>, <a>Jinmo Koo</a>, <a>Joonwoo Ahn</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2610.25961v2"
+    project_page: "https://pacevla.github.io/"
+    selected: y
+
+  - title: "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs"
+    authors: "<a href='https://junhyeong-park.me/'>Junhyeong Park</a>, <a>Wook Jung</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://huiwon-jang.github.io/'>Huiwon Jang</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
+    venue: "CoRL 2026 Workshop on Scaling Human2Robot"
+    selected: y
+
+  - title: "RoboAlign: Learning Test-Time Reasoning for Language-Action Alignment in Vision-Language-Action Models"
+    image: "/assets/publications/roboalign/teaser.png"
+    authors: "<a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>, <a href='https://alinlab.kaist.ac.kr/members.html'>Sumin Park</a>, <a href='https://woominsong.github.io/'>Woomin Song</a>, <a href='https://alinlab.kaist.ac.kr/members.html'>Seungku Kim</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://huiwon-jang.github.io/'>Huiwon Jang</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a href='https://sites.google.com/view/jaehyungkim'>Jaehyung Kim</a>, <a href='https://younggyo.me/'>Younggyo Seo</a>"
+    venue: "CoRL 2026 Workshop on Pretrain to Adapt"
+    paper_pdf: "https://arxiv.org/abs/2603.21341"
+    selected: y
+
   - title: "RLDX-1 Technical Report"
     image: "/assets/publications/rldx_1/overview.png"
     authors: "<a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>*<sup>&#167;</sup>, <a href='https://huiwon-jang.github.io'>Huiwon Jang</a>*<sup>&#167;</sup>, <a href='https://myungkyukoo.github.io'>Myungkyu Koo</a>*, <a href='https://suhyeok-jang.github.io'>Suhyeok Jang</a>*, <b><u>Taeyoung Kim</u></b>*, et al., <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a><sup>&#167;</sup>"
@@ -22,29 +47,4 @@ papers:
     venue: "ICLR 2026"
     paper_pdf: "https://arxiv.org/abs/2510.00695"
     project_page: "https://myungkyukoo.github.io/hamlet"
-    selected: y
-
-  - title: "RoboAlign: Learning Test-Time Reasoning for Language-Action Alignment in Vision-Language-Action Models"
-    image: "/assets/publications/roboalign/teaser.png"
-    authors: "<a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>, <a href='https://alinlab.kaist.ac.kr/members.html'>Sumin Park</a>, <a href='https://woominsong.github.io/'>Woomin Song</a>, <a href='https://alinlab.kaist.ac.kr/members.html'>Seungku Kim</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://huiwon-jang.github.io/'>Huiwon Jang</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a href='https://sites.google.com/view/jaehyungkim'>Jaehyung Kim</a>, <a href='https://younggyo.me/'>Younggyo Seo</a>"
-    venue: "CoRL 2026 Workshop on Pretrain to Adapt"
-    paper_pdf: "https://arxiv.org/abs/2603.21341"
-    selected: y
-
-  - title: "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs"
-    authors: "<a>Junhyeong Park</a>, <a>Wook Jung</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://huiwon-jang.github.io/'>Huiwon Jang</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
-    venue: "CoRL 2026 Workshop on Scaling Human2Robot"
-    selected: y
-
-  - title: "PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models"
-    authors: "<a href='https://www.linkedin.com/in/jeon-hojin-56695a18b/?locale=en_US'>Hojin Jeon</a>, <a href='https://jiminlx.github.io/'>Jimin Lee</a>, <a>Taekwan Kim</a>, <a href='https://nayoung-oh.github.io/'>Nayoung Oh</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://myungkyukoo.github.io'>Myungkyu Koo</a>, <a>Jinmo Koo</a>, <a>Joonwoo Ahn</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/abs/2610.25961v2"
-    project_page: "https://pacevla.github.io/"
-    selected: y
-
-  - title: "Adapting Video Models for Robot Control via Motion-guided Asymmetric Prediction"
-    authors: "<b><u>Taeyoung Kim</u></b>, <a href='https://joonyeongs.github.io/'>Junyoung Sung</a>, <a href='https://arunos728.github.io/'>Heeseung Kwon</a>, <a href='https://www.linkedin.com/in/minseop-kim-255ba02b2/?locale=en'>Minseop Kim</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/abs/2610.36624"
     selected: y
