@@ -30,7 +30,7 @@ papers:
 
   - title: "FineAct: Coarse-to-Fine Vision-Language-Action Representation Alignment for Policy Learning"
     # abbr: FineAct
-    authors: "<a>Wook Jung</a>, <a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>, <a>John Won</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
+    authors: "<a>Wook Jung</a>, <a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>, <a href='https://periphanes.github.io/'>John Won</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
     venue: "Preprint"
     selected: y
 
