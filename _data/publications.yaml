@@ -24,6 +24,11 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2603.21341"
     selected: y
 
+  - title: "FineAct: Coarse-to-Fine Vision-Language-Action Representation Alignment for Policy Learning"
+    authors: "<a>Wook Jung</a>, <a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>, <a>John Won</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
+    venue: "Preprint"
+    selected: y
+
   - title: "RLDX-1 Technical Report"
     image: "/assets/publications/rldx_1/overview.png"
     authors: "<a href='https://kingdy2002.github.io/'>Dongyoung Kim</a>*<sup>&#167;</sup>, <a href='https://huiwon-jang.github.io'>Huiwon Jang</a>*<sup>&#167;</sup>, <a href='https://myungkyukoo.github.io'>Myungkyu Koo</a>*, <a href='https://suhyeok-jang.github.io'>Suhyeok Jang</a>*, <b><u>Taeyoung Kim</u></b>*, et al., <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a><sup>&#167;</sup>"
