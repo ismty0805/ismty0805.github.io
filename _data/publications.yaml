@@ -35,3 +35,16 @@ papers:
     authors: "<a>Junhyeong Park</a>, <a>Wook Jung</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://huiwon-jang.github.io/'>Huiwon Jang</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
     venue: "CoRL 2026 Workshop on Scaling Human2Robot"
     selected: y
+
+  - title: "PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models"
+    authors: "<a>Hojin Jeon</a>, <a href='https://jiminlx.github.io/'>Jimin Lee</a>, <a>Taekwan Kim</a>, <a>Nayoung Oh</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://myungkyukoo.github.io'>Myungkyu Koo</a>, <a>Jinmo Koo</a>, <a>Joonwoo Ahn</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2610.25961v2"
+    project_page: "https://pacevla.github.io/"
+    selected: y
+
+  - title: "Adapting Video Models for Robot Control via Motion-guided Asymmetric Prediction"
+    authors: "<b><u>Taeyoung Kim</u></b>, <a>Junyoung Sung</a>, <a>Heeseung Kwon</a>, <a>Minseop Kim</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2610.36624"
+    selected: y
