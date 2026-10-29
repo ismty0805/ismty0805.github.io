@@ -30,3 +30,8 @@ papers:
     venue: "CoRL 2026 Workshop on Pretrain to Adapt"
     paper_pdf: "https://arxiv.org/abs/2603.21341"
     selected: y
+
+  - title: "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs"
+    authors: "<a>Junhyeong Park</a>, <a>Wook Jung</a>, <b><u>Taeyoung Kim</u></b>, <a href='https://huiwon-jang.github.io/'>Huiwon Jang</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
+    venue: "CoRL 2026 Workshop on Scaling Human2Robot"
+    selected: y
